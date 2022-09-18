@@ -1,0 +1,47 @@
+
+#container {
+  height:100vh;
+  width: 100%;
+  display: flex;
+
+justify-content: center;
+
+
+}
+.content {
+  height:55vh;
+  width:50%;
+  border-radius: 25px;
+  box-shadow: 0 0 7px white;
+}
+
+
+.humedad, .temperatura, .dia {
+  display:flex;
+  gap:15px;
+  font-size: 25px;
+}
+.container-description #location {
+  font-size: 3em;
+
+}
+
+#description {
+  font-size: 1.5em
+}
+
+.container-description2 {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+#temperature, #date, #humidity {
+  font-size: 25px;
+}
+
+#location {
+  text-shadow: 0 0 2px black;
+}
+
