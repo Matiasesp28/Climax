@@ -1,4 +1,4 @@
-windows.onload = () => {
+window.onload = () => {
     navigator.geolocation.getCurrentPosition(fetchData);
 
 
