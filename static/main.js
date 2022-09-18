@@ -1,5 +1,5 @@
 window.onload = () => {
-    navigator.geolocation.getCurrentPosition(fetchData);
+   
 
 
     const API_KEY = 'a565f896d2b78a487c4c9bb59551d556';
@@ -34,4 +34,5 @@ window.onload = () => {
             date.getFullYear()
         }`;
     }
+    navigator.geolocation.getCurrentPosition(fetchData);
 }
